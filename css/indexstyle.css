@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+}
+.wrapper input[type ="text"]{
+    flex: 1 1 auto;
+    border-left: none;
+    border-radius: 10%;
+}
+.makeToLeft{
+    display: flex;
+    flex: 1 1 auto;
+}

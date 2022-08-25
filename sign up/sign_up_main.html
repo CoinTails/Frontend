@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <title>Coin Tails</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Sign Up</header>
+      <form action="#">
+        <div class="field fullname">
+          <div class="input-area">
+            <input type="text" placeholder="Full Name" />
+            <i class="icon fas fa-user"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Name can't be blank</div>
+        </div>
+
+        <div class="field phone-no">
+          <div class="input-area">
+            <input type="text" placeholder="Phone Number" />
+            <i class="icon fas fa-phone"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">phone number can't be blank</div>
+        </div>
+
+        <div class="field email">
+          <div class="input-area">
+            <input type="text" placeholder="Email Address" />
+            <i class="icon fas fa-envelope"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Email can't be blank</div>
+        </div>
+
+        <div class="field password">
+          <div class="input-area">
+            <input type="password" placeholder="Password" />
+            <i class="icon fas fa-lock"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Please enter Password</div>
+        </div>
+
+        <div class="field confirm-password">
+          <div class="input-area">
+            <input type="password" placeholder="Confirm Password" />
+            <i class="icon fas fa-lock"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Password doesn't Match</div>
+        </div>
+
+        <!--<div class="pass-txt"><a href="#">Forgot password?</a></div>-->
+        <input type="submit" value="Register" />
+      </form>
+      <div class="sign-txt">
+        Already a member? <a href="../login/loginmain.html">Sign In</a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>

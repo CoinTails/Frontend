@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <title>Coin Tails</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Sign In</header>
+      <form action="#">
+        <div class="field email">
+          <div class="input-area">
+            <input type="text" placeholder="Email Address" />
+            <i class="icon fas fa-envelope"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Email can't be blank</div>
+        </div>
+
+        <div class="field phone-no">
+          <div class="input-area">
+            <input type="text" placeholder="Phone Number" />
+            <i class="icon fas fa-phone"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">phone number can't be blank</div>
+        </div>
+
+        <div class="field password">
+          <div class="input-area">
+            <input type="password" placeholder="Password" />
+            <i class="icon fas fa-lock"></i>
+            <button class="btn btn-success" id="btn"><i class="icons fas fa-eye"></i></button>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Please enter Password</div>
+        </div>
+      
+        <div class="forgot_pass pass-txt">
+          <a href="/forgot password/forgotpass.html">Forgot password?</a>
+        </div>
+        <input type="submit" value="Login" />
+      </form>
+      <div class="sign-txt">
+        Not yet a member? <a href="../sign up/sign_up_main.html">Signup now</a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>
