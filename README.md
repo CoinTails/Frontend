@@ -44,7 +44,7 @@ Please adhere to this project's `code of conduct`.
 
 Its been a long journery creating this platform considering the many challenges we faced, from differnt timezones, different ways of life, regular misunderstings just to mention a few. I would like to appreciate anyone wo was a part of this journery. It wasn't easy but we made it.
 ## Authors
-- [@Chinosno](https://www.github.com/chinosno)
+- [@Chinonsoalexa](https://www.github.com/chinonsoalexa)
 - [@Ahmed](https://www.github.com/ahmad-shokry-eg)
 - [@Edwin](https://www.github.com/#)
 - [@Esraa](https://www.github.com/esraa00)
