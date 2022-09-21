@@ -74,6 +74,7 @@ form.onsubmit = (e)=>{
           },
           onClick: function(){} // Callback after click
         }).showToast();
+        //window.location.href = "/user profile/index.html";
       } else {//display toast if login wasn't succefull
         Toastify({
           text: "Error occured! \n Check your login details \n",

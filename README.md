@@ -44,7 +44,7 @@ Please adhere to this project's `code of conduct`.
 
 Its been a long journery creating this platform considering the many challenges we faced, from differnt timezones, different ways of life, regular misunderstings just to mention a few. I would like to appreciate anyone wo was a part of this journery. It wasn't easy but we made it.
 ## Authors
-- [@Chinonsoalexa](https://www.github.com/chinonsoalexa)
+- [@Chinosno](https://www.github.com/chinosno)
 - [@Ahmed](https://www.github.com/ahmad-shokry-eg)
 - [@Edwin](https://www.github.com/#)
 - [@Esraa](https://www.github.com/esraa00)
@@ -81,4 +81,3 @@ incase of an order canceliation you will have to fill in a form on why you cance
 
 For support, email devcointails@gmail.com.
 
-# dev-frontend
