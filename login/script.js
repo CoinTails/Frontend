@@ -48,7 +48,7 @@ form.onsubmit = (e)=>{
   //if eField and pField doesn't contains error class that mean user filled details properly
   if(!eField.classList.contains("error") && !pField.classList.contains("error")){
     //console.log(/*'email=', eInput.value,*/ 'pass =', pInput.value, "phoneNumber =", phoneInput.value);
-    fetch("http://api.cryptochainmarket.tk:8000/api/v1/auth/login", { //the login api url
+    fetch("https://api.cointails.org/api/v1/auth/login", { //the login api url
       method: "POST",
       body:JSON.stringify({
         email:eInput.value,

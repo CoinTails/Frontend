@@ -41,7 +41,7 @@ form.onsubmit = (e)=>{
                  .map(k => encodeURIComponent(email[k]))
                  .join('&');
     
-    let url = 'http://api.cryptochainmarket.tk:8000/api/v1/auth/forget/' + query;
+    let url = 'https://api.cointails.org/api/v1/auth/forget/' + query;
     
     fetch(url)
       .then((response) => response.json())
@@ -92,7 +92,7 @@ form.onsubmit = (e)=>{
   newPassf = document.querySelector(".newPass"),
   newPassI = document.querySelector(".new-password");
 
-  fetch("http://api.cryptochainmarket.tk:8000/api/v1/auth/forget", { //the login api url
+  fetch("https://api.cointails.org/api/v1/auth/forget", { //the login api url
       method: "POST",
       body:JSON.stringify({
         email:eInput.value,
@@ -100,6 +100,9 @@ form.onsubmit = (e)=>{
         password:newPassI.value
       }),
     })
+
+
+
 }
 let reset_code_div = 
 `<div class="field sent-code">
