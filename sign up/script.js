@@ -112,7 +112,7 @@ form.onsubmit = (e)=>{
           onClick: function(){} // Callback after click
         }).showToast();
       
-        //console.log("fucked up")
+        
       }
     });
     //window.location.href = form.getAttribute("action"); //redirecting user to the specified url which is inside action attribute of form tag
