@@ -3,7 +3,7 @@
 Cryptochain is a platfrom aimed to narrow the gap that exist to day to day online traders, buyers and the cryptocurrency world. We aim to reduce this gap by allowing customers and sellers to sell/buy all products directly from their crypto wallets.
 
 
-![Logo](https://cointails.org/imgs/company_logo-trans.png)
+![Logo](https://cointails.org/imgs/company_logo.jpg)
 
 
 ## Used By
