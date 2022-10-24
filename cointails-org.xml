@@ -9,28 +9,58 @@
 
 <url>
   <loc>https://cointails.org/</loc>
-  <lastmod>2022-09-30T11:06:07+00:00</lastmod>
+  <lastmod>2022-10-20T13:25:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://cointails.org/index.html</loc>
-  <lastmod>2022-09-30T11:06:07+00:00</lastmod>
+  <lastmod>2022-10-20T13:25:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cointails.org/login/loginmain.html</loc>
-  <lastmod>2022-09-30T11:06:07+00:00</lastmod>
+  <lastmod>2022-10-20T13:25:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cointails.org/product-page/contact.html</loc>
+  <lastmod>2022-10-20T13:25:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cointails.org/product-page/product.html</loc>
+  <lastmod>2022-10-20T13:25:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cointails.org/forgot%20password/forgotpass.html</loc>
-  <lastmod>2022-09-30T11:06:07+00:00</lastmod>
+  <lastmod>2022-10-20T13:25:47+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cointails.org/sign%20up/sign_up_main.html</loc>
-  <lastmod>2022-09-30T11:06:07+00:00</lastmod>
+  <lastmod>2022-10-20T13:25:47+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cointails.org/user%20profile/users-profile.html</loc>
+  <lastmod>2022-10-20T13:25:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cointails.org/product-page/categories.html</loc>
+  <lastmod>2022-10-20T13:25:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cointails.org/product-page/single.html</loc>
+  <lastmod>2022-10-20T13:25:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cointails.org/user%20profile/index.html</loc>
+  <lastmod>2022-10-20T13:25:47+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 

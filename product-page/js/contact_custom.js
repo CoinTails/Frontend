@@ -1,15 +1,3 @@
-/* JS Document */
-
-/******************************
-
-[Table of Contents]
-
-1. Vars and Inits
-
-
-
-******************************/
-
 jQuery(document).ready(function($)
 {
 	"use strict";

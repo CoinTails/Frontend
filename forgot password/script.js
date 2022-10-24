@@ -46,7 +46,7 @@ form.onsubmit = (e)=>{
     fetch(url)
       .then((response) => response.json())
       .then((result) => {
-        if (result.status == "success") {//to display the toast of login success
+        if (result.status == "success") {//to display the toast for email received and user exists
           Toastify({
             text: "Check Your email and enter the code here  \n",
             duration: 5000,
@@ -66,7 +66,7 @@ form.onsubmit = (e)=>{
           resetPass.innerHTML = new_pass_div;
           actionBtn.value = "reset Password";
           document.querySelector(".code-class").focus();
-        } else {//display toast if login wasn't succefull
+        } else {//display toast if error occured 
           Toastify({
             text: "Error occured! \n Check your email and try again \n",
             duration: 8000,

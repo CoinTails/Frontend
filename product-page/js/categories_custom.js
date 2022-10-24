@@ -1,22 +1,3 @@
-/* JS Document */
-
-/******************************
-
-[Table of Contents]
-
-1. Vars and Inits
-2. Set Header
-3. Init Menu
-4. Init Favorite
-5. Init Fix Product Border
-6. Init Isotope Filtering
-7. Init Price Slider
-8. Init Checkboxes
-
-
-
-******************************/
-
 jQuery(document).ready(function($)
 {
 	"use strict";

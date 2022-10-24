@@ -94,7 +94,7 @@ form.onsubmit = (e)=>{
           },
           onClick: function(){} // Callback after click
         }).showToast();
-        //console.log("registerd in successfully");
+        window.location.href = "../login/loginmain.html";
       } else { 
         Toastify({
           text: "Error occured! \n Make sure passowrd has 8+ chars \n Add country code to Phone number \n",

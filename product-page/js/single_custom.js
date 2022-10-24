@@ -1,22 +1,3 @@
-/* JS Document */
-
-/******************************
-
-[Table of Contents]
-
-1. Vars and Inits
-2. Set Header
-3. Init Menu
-4. Init Thumbnail
-5. Init Quantity
-6. Init Star Rating
-7. Init Favorite
-8. Init Tabs
-
-
-
-******************************/
-
 jQuery(document).ready(function($)
 {
 	"use strict";
