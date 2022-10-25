@@ -62,7 +62,7 @@ form.onsubmit = (e)=>{
         Toastify({
           text: "logged in successfully",
           duration: 10000,
-          destination: "/index.html",
+          destination: "../product-page/product.html",
           avatar: "../imgs/IMG-20220520-WA0007-removebg-preview.png",
           newWindow: false,
           close: true,
@@ -74,7 +74,7 @@ form.onsubmit = (e)=>{
           },
           onClick: function(){} // Callback after click
         }).showToast();
-        window.location.href = "/user profile/index.html";
+        window.location.href = "../product-page/product.html";
       } else {//display toast if login wasn't succefull
         Toastify({
           text: "Error occured! \n Check your login details \n",
